@@ -1692,6 +1692,13 @@
 			text-decoration: none;
 		}
 
+	h2.format {
+		margin: 5rem;
+		padding-right: 4rem;
+		padding-left: 4rem;
+		line-height: 2.8rem;
+	}
+
 	h2 {
 		font-size: 1.75rem;
 	}
@@ -4310,3 +4317,34 @@
 			}
 
 		}
+	.rbtn {
+		font-family: "Poppins", sans-serif;
+		letter-spacing: 1.5px;
+		border-radius: 30px;
+		font-size: 1.2rem;
+		/* padding: 1px 25px; */
+		padding-bottom: 3.4rem;
+		padding-top: .7rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		margin-top: 20px;
+		text-align: center;
+		outline: none;
+	}
+	.rbtn a {
+		text-decoration: none;
+		color: black !important;
+		padding: 10px;
+	}
+
+	.rbtn:hover {
+		font-size: 1.3rem;
+		/* letter-spacing: 1.1px; */
+		transition: .2s;
+		text-align: center;
+		color: lightgreen !important;
+	}
+
+	.rbtn:active {
+		transform: translateY(4px);
+	}

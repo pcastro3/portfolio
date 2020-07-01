@@ -3262,7 +3262,7 @@
 		.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../images/bg.jpg);
+			background-image: url(../../images/bg1.jpg);
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
@@ -4606,3 +4606,7 @@
 	.rbtn:active {
 		transform: translateY(4px);
 	}
+
+.muse {
+	margin-top: 2rem;
+}
